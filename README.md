@@ -69,6 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-Usaremos la libreria tailwind
+### Usaremos la libreria tailwind
     -- npm install -D tailwindcss
     -- npx tailwindcss init
+
+### Api del proyecto 
+    https://fakestoreapi.com/products
+

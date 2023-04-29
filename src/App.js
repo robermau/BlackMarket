@@ -1,16 +1,20 @@
-import './App.css';
-import API from './Compose/Api'
-import navBar from './Compose/NavBar'
+import { browserRouter, Route, Routers} from 'react-router-dom'
+import Home from './Pages/Home'
+import AcercaDe from './Pages/AcercaDe'
+import Contacto from './Pages/Contacto'
+import Navbar from './Components/NavBar'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-       <navBar/>
-        <div id="Card"></div>
-        
-      </header>
-    </div>
+    <browserRouter>
+    <Navbar/>
+    <Routers>
+       <Route exact path='/' element={<Home/>}/>
+       <Route path='/Acerca de' element={<AcercaDe/>}/>
+       <Route path='Contacto' element={<Contacto/>}/>
+    </Routers>
+    </browserRouter>
+      
   );
 }
 

@@ -1,10 +1,11 @@
 import './App.css';
 // import {BrowserRouter} from "react-router-dom"
+import Cards from "./componentes/Cards"
 
 function App() {
   return (
     <>
-    <h1>hola</h1>
+    <Cards/>
     </>
   );
 }

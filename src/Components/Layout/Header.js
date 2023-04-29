@@ -4,27 +4,25 @@ const Header = () => {
 
     <header>
         <div>
-    <nav className="bg-white dark:bg-indigo-950 shadow ">
+    <nav className="bg-white dark:bg-red-900 shadow ">
         <div className="px-8 mx-auto max-w-7xl">
             <div className="flex items-center justify-between h-16">
                 <div className=" flex items-center">
                     <a className="flex-shrink-0" href="/">
-                        <img className="w-8 h-8" src="/icons/rocket.svg" alt="Workflow"/>
+                        <img className="w-12 h-12" src="BMLogo.svg" alt="Workflow"/>
                     </a>
                     <div className="hidden md:block">
                         <div className="flex items-baseline ml-10 space-x-4">
-                            <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/#">
-                                Home
+                            <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/About">
+                                Nosotros
                             </a>
-                            <a className="text-gray-800 dark:text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/#">
-                                Gallery
+                            <a className="text-gray-800 dark:text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/Products">
+                                Productos
                             </a>
-                            <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/#">
-                                Content
+                            <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/Contact">
+                                Contáctanos
                             </a>
-                            <a className="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium" href="/#">
-                                Contact
-                            </a>
+                            
                         </div>
                     </div>
                 </div>

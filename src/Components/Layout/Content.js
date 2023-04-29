@@ -5,6 +5,8 @@ import About from '../../Pages/About';
 import Contact from '../../Pages/Contact';
 import Products from '../../Pages/Products';
 import Home from '../../Pages/Home';
+import LogIn from '../../Pages/LogIn';
+import LogOut from '../../Pages/LogOut';
 
 function Content() {
   return (
@@ -17,6 +19,8 @@ function Content() {
               <Route path='about' element={<About/>}/>
               <Route path='products' element={<Products/>}/>
               <Route path='contact' element={<Contact/>}/>
+              <Route path='login' element={<LogIn/>}/>
+              <Route path='logout' element={<LogOut/>}/>
                             
         </Routes>
         </BrowserRouter>

@@ -6,8 +6,7 @@ function App() {
     <div className="App">
       <header className="App-header">
        
-       
-    <div id="Card"></div>
+        <div id="Card"></div>
         
       </header>
     </div>

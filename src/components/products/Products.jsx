@@ -1,5 +1,5 @@
 import { React, useState, useEffect } from 'react';
-import Tarjeta from './Card.jsx';
+import Tarjeta from './Card2.jsx';
 
 // fetch("https://rickandmortyapi.com/api/character")
 //   .then((response) => response.json())  
@@ -54,6 +54,7 @@ export default function Products() {
 
           return (
             <div key={index}>
+              {console.log(product)}
               <Tarjeta {...product} />
             </div>
           );

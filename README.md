@@ -76,3 +76,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 ### Api del proyecto 
     https://fakestoreapi.com/products
 
+### componentes
+https://tailwindcomponents.com/
+
+

@@ -1,3 +1,7 @@
+link{text-decoration: none;
+
+}
+
 .App {
   text-align: center;
 }
@@ -19,3 +23,80 @@
   color: #61dafb;
 }
 
+.home{
+
+background-color: black;
+height: 90vh;
+display: flex;
+align-items: center;
+
+}
+
+.contac {
+  background-color: black;
+height: 90vh;
+
+}
+
+.home h1 {
+  font-size: 10rem;
+  margin: auto;
+  text-align: center;
+  
+}
+
+
+.home h2 {
+  font-size: 8rem;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.cont-prod {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.art-prod {
+  width: 80%;
+
+}
+.card.card-prod {
+  height: 400px;
+  width: 300px;
+}
+
+.art-prod-img {
+  height: 300px;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.img-prod  {
+  object-fit: contain !important;
+  height: 250px !important;
+  width: 250px !important;
+}
+
+.bod-pro {
+  height: 300px;
+ color: #212529;
+
+}
+
+.bod-pro-art {
+  height: 50px;
+  overflow: hidden;
+
+}
+
+.bod-pro h3 { font-size: 1.2rem;}
+
+
+
+.text-pro {
+  overflow: hidden;
+  height: 150px;
+}

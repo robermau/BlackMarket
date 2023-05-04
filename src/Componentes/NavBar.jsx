@@ -1,6 +1,6 @@
 import {Link,Nav, NavLink} from 'react'
-import {FcHome} from 'react-icons/fc'
 import { useState } from 'react';
+import {FcHome} from 'react-icons/fc'
 import { FaBars } from 'react-icons/fa'
 import { AiOutlineClose } from 'react-icons/ai'
 

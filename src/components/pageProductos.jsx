@@ -15,19 +15,31 @@ const PageProductos =()=>{
         console.log(responseData);
     }
     return (
-        <div>
-        {data.map((item)=>(
-            <>
-            <div className="container">
-            <div className="card">
-            <div><p className="fs-1">{item.id}</p></div>
-            <div><p className="fs-2">{item.title}</p></div>
-            <div><img src={item.image} alt="" /></div>
+        <div className="container">
+            <div className="row row-cols-2">
+            {data.map((item)=>(
+                <>
+                <div className="col">
+
+                    <div className="card px-1 py-1">
+                    <div className="row no-gutters">
+                        <div className="col-md-4">
+                        <img src={item.image} class="card-img" alt="..."/>
+                        </div>
+                        <div className="col-md-8">
+                        <div className="card-body">
+                            <h5 className="card-title">{item.title}</h5>
+                            <p className="card-text">{item.id}</p>
+                        <p className="card-text">{item.price}</p>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                </>
+            ))}
             </div>
-            </div>
-            </>
-        ))}
-    </div>
+        </div>
     )
     }
 export default PageProductos;

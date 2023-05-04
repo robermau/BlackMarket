@@ -31,7 +31,9 @@ function App() {
 
 
 
-    <Footer/>
+    <Footer title="Todos los derechos reservados" text="dsvsdf" >
+      {/* <h4 className="text-center text-white-50 fs-8 text">esto es un hijo</h4> */}
+    </Footer>
 
     </div>
   );

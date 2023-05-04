@@ -5,7 +5,7 @@ const Nosotros = () => (
 <>
      
         <article className="home">
-        <h2 className="justify-content-end">nosotros</h2>
+        <h2 className="justify-content-end">Nosotros</h2>
         </article>
         </>
     

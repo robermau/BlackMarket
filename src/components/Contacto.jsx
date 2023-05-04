@@ -1,4 +1,5 @@
 import React from "react";
+import Boton from "./Botones";
 
 function Contacto (){
 
@@ -52,9 +53,9 @@ return (
           ></textarea>
         </div>
         <div className="form-group mt-3">
-          <button className="btn btn-outline-secondary mp-50" type="submit">
-            Enviar
-          </button>
+
+        <Boton type="submit" name="enviar"></Boton>
+
         </div>
       </form>
     </section>

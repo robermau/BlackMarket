@@ -9,7 +9,7 @@ const Productos = () => (
 
         <article className="art-prod"> 
 
-         <MiAppi/>
+         <MiAppi></MiAppi>
          </article>
 
 

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 import Card from 'react-bootstrap/Card';
 import Col from 'react-bootstrap/Col';
+import Boton from "./Botones";
 
 
 export const MiAppi = () => {
@@ -47,7 +48,7 @@ export const MiAppi = () => {
                           <h3 className="bod-pro-art">{item.title}</h3>
                           <h4 className="bod-pro-art">{item.price}</h4>
                           {/* <p className="text-pro">{item.description}</p> */}
-
+                          <Boton className="bod-pro-art" type="button" name="ver mas"></Boton>
                           </Card.Body>
 
 

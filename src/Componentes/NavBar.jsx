@@ -1,4 +1,4 @@
-import {Link, NavLink} from 'react'
+import {Link,Nav, NavLink} from 'react'
 import {FcHome} from 'react-icons/fc'
 import { useState } from 'react';
 import { FaBars } from 'react-icons/fa'
@@ -12,7 +12,7 @@ function Navbar()
   const clickHandler=() => {setTogglernav(!togglerNav)};
 
   return (
-  <nav className='h-auto md:h-24 p2 bg-blue-200 max-w-6x1 mx-auto flex justify-between md:items-center'>
+  <Nav className='h-auto md:h-24 p2 bg-blue-200 max-w-6x1 mx-auto flex justify-between md:items-center'>
     <Link to='/'>
       <FcHome className='text-6x1'/>
     </Link>
@@ -22,7 +22,7 @@ function Navbar()
         <NavLink className='nav-link' onClick={clickHandler} to='/Contacto'>Contacto</NavLink>
       </div>  
     <button className='inline md:hidden self-start nav-link' onClick={clickHandler}>{togglerNav ? <AiOutlineClose />:<FaBars/> }</button>
-  </nav>
+  </Nav>
   
   );
 

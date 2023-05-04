@@ -1,19 +1,23 @@
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
-import Home from './Pages/Home'
-import AcercaDe from './Pages/AcercaDe'
-import Contacto from './Pages/Contacto'
+import { RouterBrowser ,Routes, Route} from 'react-router-dom'
+import Home from './Paginas/Home'
+import AcercaDe from './Paginas/AcercaDe'
+import Contacto from './Paginas/Contacto'
+import Navbar from './Componentes/NavBar'
+
 
 
 function App() {
   return (
-    <BrowserRouter>
-     <Routes>
-       <Route exact path='/' element={<Home/>}/>
-       <Route path='/Acerca de' element={<AcercaDe/>}/>
-       <Route path='Contacto' element={<Contacto/>}/>
+    <>
+   <Navbar/>
+   <RouterBrowser>
+    <Routes>
+        <Route exact path='/' element={<Home/>} />
+        <Route path='/Acerca de' element={<AcercaDe/>} />
+        <Route path='Contacto' element={<Contacto/>} />
     </Routes>
-    </BrowserRouter>
-      
+    <RouterBrowser/>
+     </>
   )
 }
 

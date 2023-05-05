@@ -1,25 +1,19 @@
-
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+export default function App(){
+  useEffect(()=>{
+  fetch('https://fakestoreapi.com/products?limit=5')
+            .then(res=>res.json())
+            .then(json=>console.log(json));
+ 
+ 
+    });  return (
+    <div>
+      <h1> consumiendo appi</h1>
     </div>
   );
-}
+  
 
-export default App;
+  }  
